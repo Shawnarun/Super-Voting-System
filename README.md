@@ -1,4 +1,4 @@
-# Superstar Voting Application
+# Super Voting Application
 
 This project is a Superstar Voting Application built using Spring Boot 3.3 for the backend and Angular for the frontend. The application allows users to vote for candidates in various events, with features for candidate registration, voting, and vote result presentation.
 
