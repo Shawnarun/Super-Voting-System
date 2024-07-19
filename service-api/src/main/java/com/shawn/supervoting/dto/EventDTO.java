@@ -9,6 +9,7 @@ import lombok.*;
 import java.time.LocalDate;
 @Data
 @AllArgsConstructor
+@Builder
 @NoArgsConstructor
 public class EventDTO {
     private String  eventId;

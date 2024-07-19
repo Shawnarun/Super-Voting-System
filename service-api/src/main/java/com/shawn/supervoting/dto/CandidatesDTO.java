@@ -9,6 +9,7 @@ import java.util.List;
 
 @Data
 @AllArgsConstructor
+@Builder
 @NoArgsConstructor
 public class CandidatesDTO {
     private String candidatesId;

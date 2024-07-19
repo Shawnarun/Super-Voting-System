@@ -23,6 +23,8 @@ public class User {
     private String displayName;
     @Column(name = "password", length = 250, nullable = false)
     private String password;
+    @Column(name = "otp")
+    private int otp;
     @Column(name = "is_account_non_expired", columnDefinition = "TINYINT")
     private boolean isAccountNonExpired;
     @Column(name = "is_account_non_locked", columnDefinition = "TINYINT")
